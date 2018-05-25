@@ -1,7 +1,7 @@
 @charset "UTF-8";
 @import url(font-awesome.min.css);
 @import url("https://fonts.googleapis.com/css?family=Taviraj:300,400,700,300i,400i,700i");
-
+@import url('https://fonts.googleapis.com/css?family=Amatic+SC');
 html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
 		margin: 0;
 		padding: 0;
@@ -82,7 +82,7 @@ canvas {
   text-align: center;
   overflow: hidden;
   z-index: 2;
-  margin-top: 250px;
+
 
 }
 
@@ -99,24 +99,33 @@ canvas {
     position: relative;
     z-index: 2;
     text-align: center;
-    background-color: #90A4AE; 
+    background-color: rgba(45, 52, 54, 0.95);  /* rgba(45, 52, 54,1.0) */
+		border-radius: 50px;
+		margin-right: 425px;
+		margin-left: 425px;
+		bottom: 10px;
   }
 
   #banner h1 {
-    font-size: 8rem;
+    font-size: 12rem;
     margin-bottom: 1rem;
+		margin-top: 100px;
     color: #FFF;
+		font-family: 'Amatic SC', cursive;
   }
 
   #banner p {
     color: rgba(255, 255, 255, 0.65);
-    font-size: 1.5rem;
+    font-size: 2.5rem;
     margin-bottom: 3rem;
+		font-family: 'Amatic SC', cursive;
   }
 
   #banner a {
     color: #FFF;
     text-decoration: none;
+		font-family: 'Amatic SC', cursive;
+		font-size: 2rem;
   }
 
 
@@ -215,6 +224,7 @@ input[type="submit"],
 		text-decoration: none;
 		white-space: nowrap;
 		text-transform: uppercase;
+		margin-bottom: 20px;
 	}
 
 		input[type="submit"].icon,
